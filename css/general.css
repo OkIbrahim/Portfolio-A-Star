@@ -28,7 +28,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   scrollbar-width: thin;
   scrollbar-color: var(--bg-color-3) var(--bg-color-2);
 }
