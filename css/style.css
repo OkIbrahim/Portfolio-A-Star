@@ -176,12 +176,14 @@
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
   margin: 1rem 0;
+  min-width: 0;
 }
 
 .hero-details {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  min-width: 0;
 }
 
 .hero-details h1 {
@@ -289,6 +291,11 @@
 .ion-icon-linkedin {
   color: navy;
   outline: 3px solid navy;
+}
+
+.hero-animation {
+  min-width: 0;
+  overflow: hidden;
 }
 
 dotlottie-wc {
@@ -1036,4 +1043,18 @@ textarea::placeholder {
 
 #backToTop:hover {
   background-color: var(--text-color-2);
+}
+
+.hero,
+.contact,
+.certificates,
+.skills-gallery {
+  min-width: 0;
+}
+
+.hero-details,
+.hero-animation,
+.contact-form,
+.contact-details {
+  min-width: 0;
 }
