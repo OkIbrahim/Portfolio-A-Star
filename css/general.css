@@ -1,0 +1,47 @@
+:root {
+  --bg-color: rgb(249, 238, 240);
+  --bg-color-2: rgb(243, 140, 159);
+  --bg-color-3: rgb(236, 57, 86);
+  --text-color: rgb(33, 0, 57);
+  --text-color-2: rgb(64, 29, 88);
+  --text-color-3: rgb(65, 53, 74);
+  --hover-color: rgb(255, 215, 0);
+  --hover-color-2: rgb(255, 208, 0);
+  --hover-text: rgb(0, 0, 0);
+  --hover-text-2: rgba(0, 0, 0, 0.8);
+}
+
+/* 
+- Font sizes (px) --> 1.6rem = 16px 
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px) --> 1rem = 10px
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 56 / 64 / 72 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-color-3) var(--bg-color-2);
+}
+
+body {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: var(--text-color-3);
+  background-color: var(--bg-color-3);
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem var(--bg-color-2);
+}

@@ -1,0 +1,623 @@
+:root {
+  --bg-color: rgb(249, 238, 240);
+  --bg-color-2: rgb(243, 140, 159);
+  --bg-color-3: rgb(236, 57, 86);
+  --text-color: rgb(33, 0, 57);
+  --text-color-2: rgb(64, 29, 88);
+  --text-color-3: rgb(65, 53, 74);
+  --hover-color: rgb(255, 215, 0);
+  --hover-color-2: rgb(255, 208, 0);
+  --hover-text: rgb(0, 0, 0);
+  --hover-text-2: rgba(0, 0, 0, 0.8);
+}
+
+/* 1264px / 16 = 79em */
+/* 9px / 16px = 56.25% */
+@media (max-width: 79em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .services-text h2 {
+    font-size: 4.5rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .services-text h3 {
+    font-size: 2.35rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .service h3 {
+    font-size: 3.5rem;
+  }
+
+  .service p {
+    font-size: 1.9rem;
+  }
+}
+
+/* 1140px / 16 = 71.25em */
+@media (max-width: 71.25em) {
+  #section-hero {
+    padding: 2rem 6rem;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-110%);
+    }
+  }
+
+  .services-text h2 {
+    font-size: 4rem;
+  }
+
+  .services-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .service h3 {
+    font-size: 3.2rem;
+  }
+
+  .service p {
+    font-size: 1.95rem;
+  }
+
+  #section-projects {
+    padding: 6rem 6rem;
+  }
+
+  #section-certifications {
+    padding: 6rem 6rem;
+  }
+
+  #section-talents {
+    padding: 6rem 6rem;
+  }
+
+  #section-contact {
+    padding: 6rem 6rem;
+  }
+
+  .hero-details h2 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  .hero-details h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  dotlottie-wc {
+    height: 47rem;
+    width: 52rem;
+  }
+
+  .skills-gallery {
+    padding: 0 4.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 2.5rem;
+  }
+
+  .contact-form {
+    padding: 2.5rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 47%;
+  }
+
+  select,
+  textarea,
+  .form-button {
+    width: 99%;
+  }
+}
+
+/* 1040px / 16 = 65em */
+/* 8px / 16px = 0.5 = 50% */
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
+  }
+
+  #section-hero {
+    padding: 2rem 5rem;
+  }
+
+  #section-projects {
+    padding: 6rem 5rem;
+  }
+
+  #section-certifications {
+    padding: 6rem 5rem;
+  }
+
+  #section-talents {
+    padding: 6rem 5rem;
+  }
+
+  #section-contact {
+    padding: 6rem 5rem;
+  }
+
+  .intro {
+    gap: 1.2rem;
+  }
+
+  .intro-anchor {
+    font-size: 2.5rem;
+  }
+
+  .main-nav-list {
+    gap: 2rem;
+  }
+
+  .main-nav-cta:link,
+  .main-nav-link:visited {
+    font-size: 2.2rem;
+    padding: 0.8rem 1.3rem;
+  }
+
+  .certificates {
+    gap: 6rem;
+  }
+
+  .hero-details h3 {
+    font-size: 2.8rem;
+    margin-bottom: 2.3rem;
+  }
+
+  dotlottie-wc {
+    height: 49rem;
+    width: 50rem;
+  }
+
+  .skills-gallery {
+    padding: 0 4.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 2.3rem;
+  }
+}
+
+/* 928px / 16 = 58em */
+@media (max-width: 58em) {
+  #section-hero {
+    padding: 2rem 4rem;
+  }
+
+  #section-projects {
+    padding: 6rem 4rem;
+  }
+
+  #section-certifications {
+    padding: 6rem 4rem;
+  }
+
+  #section-talents {
+    padding: 6rem 4rem;
+  }
+
+  #section-contact {
+    padding: 6rem 4rem;
+  }
+
+  .hero {
+    gap: 4rem;
+  }
+
+  .hero-details h1 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .hero-details h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+
+  .hero-details h3 {
+    font-size: 2.7rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .slide-container {
+    height: 4.5rem;
+  }
+
+  .counter {
+    font-size: 4.5rem;
+  }
+
+  .plus {
+    font-size: 4.5rem;
+  }
+
+  .stat-texts p {
+    font-size: 1.75rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: var(--hover-color-2);
+    z-index: 2;
+    /* -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    transition: all 0.5s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.5rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3.5rem;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav {
+    transform: translateX(100%);
+  }
+
+  .skills-gallery {
+    padding: 0 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 3.5rem;
+  }
+
+  select,
+  textarea,
+  .form-button {
+    width: 100%;
+  }
+}
+
+/* 824px / 16 = 51.5em */
+@media (max-width: 51.5em) {
+  #section-hero {
+    padding: 2rem 3rem;
+  }
+
+  #section-projects {
+    padding: 6rem 3rem;
+  }
+
+  #section-certifications {
+    padding: 6rem 3rem;
+  }
+
+  #section-talents {
+    padding: 6rem 3rem;
+  }
+
+  #section-contact {
+    padding: 6rem 3rem;
+  }
+
+  .hero-details h1 {
+    font-size: 2.75rem;
+    font-weight: 500;
+  }
+
+  .hero-details h2 {
+    font-size: 3.3rem;
+    font-weight: 500;
+  }
+
+  .hero-details h3 {
+    font-size: 2.45rem;
+    margin-bottom: 1.95rem;
+  }
+
+  dotlottie-wc {
+    height: 46rem;
+    width: 47rem;
+  }
+
+  .counter {
+    font-size: 3.5rem;
+  }
+
+  .plus {
+    font-size: 3.5rem;
+  }
+
+  .stat-texts p {
+    font-size: 1.5rem;
+  }
+
+  .skills-gallery > * > p {
+    font-size: 2.2rem;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 48%;
+  }
+
+  select,
+  textarea,
+  .form-button {
+    width: 98.5%;
+  }
+}
+
+/* 724px / 16 = 45.25em */
+@media (max-width: 45.25em) {
+  .hero-details h1 {
+    font-size: 2.2rem;
+    font-weight: 400;
+  }
+
+  .hero-details h2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+
+  .hero-details h3 {
+    font-size: 2.15rem;
+    margin-bottom: 1.8rem;
+  }
+
+  dotlottie-wc {
+    height: 45rem;
+    width: 38.5rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+  }
+
+  input[type="text"]:nth-child(odd),
+  input[type="email"] {
+    margin-right: 0;
+  }
+
+  select,
+  textarea,
+  .form-button {
+    width: 100%;
+  }
+}
+
+/* 600px / 16 = 37.5em */
+@media (max-width: 37.5em) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-details h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-details h2 {
+    font-size: 3rem;
+  }
+
+  .hero-details h3 {
+    font-size: 1.9rem;
+    margin-bottom: 1.6rem;
+  }
+
+  dotlottie-wc {
+    height: 42rem;
+    width: 51.5rem;
+  }
+
+  .counter {
+    font-size: 3rem;
+  }
+
+  .plus {
+    font-size: 3rem;
+  }
+
+  .stat-texts p {
+    font-size: 1.4rem;
+  }
+
+  .projects-text h2 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  .projects-text h4 {
+    font-size: 1.7rem;
+  }
+
+  .contact-form h3 {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 97%;
+  }
+
+  select,
+  textarea,
+  .form-button {
+    width: 97%;
+  }
+
+  .contact-details {
+    gap: 5rem;
+  }
+
+  .phone-details,
+  .mail-details,
+  .github-details {
+    gap: 2rem;
+  }
+
+  .phone-form-text a,
+  .mail-form-text a,
+  .github-form-text a {
+    font-size: 2.5rem;
+  }
+
+  .footer-item:not(:last-child) {
+    margin-right: 1.8rem;
+  }
+
+  .footer-link {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+}
+
+/* 440px / 16 = 27.5em */
+@media (max-width: 27.5em) {
+  .hero-details h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero-details h2 {
+    font-size: 2.5rem;
+  }
+
+  dotlottie-wc {
+    height: 39rem;
+    width: 42.5rem;
+  }
+
+  .counter {
+    font-size: 2.5rem;
+  }
+
+  .plus {
+    font-size: 2.5rem;
+  }
+
+  .stat-texts p {
+    font-size: 1.2rem;
+  }
+
+  .cert {
+    font-size: 4rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .certificates {
+    gap: 4rem;
+  }
+
+  .html-css-cert img,
+  .advanced-css-sass-cert img,
+  .javascript-cert img,
+  .react-cert img {
+    width: 35%;
+  }
+
+  .html-css-text,
+  .advanced-css-sass-text,
+  .javascript-text,
+  .react-text {
+    gap: 5rem;
+  }
+
+  .html-css-text h3,
+  .advanced-css-sass-text h3,
+  .javascript-text h3,
+  .react-text h3 {
+    font-size: 1.65rem;
+  }
+
+  .html-css-text h4,
+  .advanced-css-sass-text h4,
+  .javascript-text h4,
+  .react-text h4 {
+    font-size: 2.8rem;
+  }
+
+  .projects-text h2 {
+    font-size: 3.3rem;
+    font-weight: 500;
+  }
+
+  .projects-text h4 {
+    font-size: 1.35rem;
+  }
+
+  .slider-text h3 {
+    font-size: 3rem;
+  }
+
+  .slider-text h4 {
+    font-size: 1.35rem;
+  }
+
+  .contact-form h4 {
+    font-size: 2.3rem;
+    font-weight: 400;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 96%;
+  }
+
+  select,
+  textarea,
+  .form-button {
+    width: 96%;
+  }
+
+  .footer-item:not(:last-child) {
+    margin-right: 1.2rem;
+  }
+
+  .footer-link {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}
