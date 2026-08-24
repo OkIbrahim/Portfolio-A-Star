@@ -24,6 +24,7 @@
   padding-bottom: 6rem;
   color: var(--text-color);
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 .header {
@@ -356,6 +357,7 @@ dotlottie-wc {
   padding: 6rem 0;
   background-color: var(--bg-color-2);
   color: var(--text-color-2);
+  overflow-x: hidden;
 }
 
 .services-text {
@@ -436,6 +438,7 @@ dotlottie-wc {
   padding: 6rem 7rem;
   background-color: var(--bg-color-3);
   color: var(--text-color-3);
+  overflow-x: hidden;
 }
 
 .projects-text {
@@ -534,13 +537,13 @@ dotlottie-wc {
 }
 
 .btn__slide--left {
-  left: 2%;
-  transform: translate(-50%, -50%);
+  left: 1%;
+  transform: translate(-50% -50%);
 }
 
 .btn__slide--right {
-  right: 2%;
-  transform: translate(50%, -50%);
+  right: 1%;
+  transform: translate(50% -50%);
 }
 
 .dots {
@@ -579,6 +582,7 @@ dotlottie-wc {
   padding: 6rem 7rem;
   background-color: var(--bg-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 .cert {
@@ -672,6 +676,7 @@ dotlottie-wc {
   padding: 6rem 7rem;
   background-color: var(--bg-color-2);
   color: var(--text-color-2);
+  overflow-x: hidden;
 }
 
 .talents-text {
@@ -725,6 +730,7 @@ dotlottie-wc {
   padding: 6rem 7rem;
   background-color: var(--bg-color-3);
   color: var(--text-color-3);
+  overflow-x: hidden;
 }
 
 #section-contact h2 {

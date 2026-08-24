@@ -191,16 +191,6 @@
     max-width: 50rem;
   }
 
-  .btn__slide--left {
-    left: 3%;
-    transform: translate(-50%, -50%);
-  }
-
-  .btn__slide--right {
-    right: 3%;
-    transform: translate(50%, -50%);
-  }
-
   .skills-gallery {
     padding: 0 4.5rem;
     grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
@@ -247,16 +237,6 @@
   .hero-details h3 {
     font-size: 2.7rem;
     margin-bottom: 2.2rem;
-  }
-
-  .btn__slide--left {
-    left: 4%;
-    transform: translate(-50%, -50%);
-  }
-
-  .btn__slide--right {
-    right: 4%;
-    transform: translate(50%, -50%);
   }
 
   .slide-container {
@@ -396,15 +376,7 @@
     font-size: 1.5rem;
   }
 
-  .btn__slide--left {
-    left: 5%;
-    transform: translate(-50%, -50%);
-  }
-
-  .btn__slide--right {
-    right: 5%;
-    transform: translate(50%, -50%);
-  }
+  
 
   .skills-gallery > * > p {
     font-size: 2.2rem;
