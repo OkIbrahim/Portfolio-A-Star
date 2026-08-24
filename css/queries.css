@@ -471,6 +471,15 @@
     font-size: 1.7rem;
   }
 
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-190%);
+    }
+  }
+
   .contact-form h3 {
     font-size: 3.5rem;
     font-weight: 600;
