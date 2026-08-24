@@ -11,6 +11,14 @@
   --hover-text-2: rgba(0, 0, 0, 0.8);
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* 1264px / 16 = 79em */
 /* 9px / 16px = 56.25% */
 @media (max-width: 79em) {
@@ -96,7 +104,8 @@
 
   dotlottie-wc {
     height: 47rem;
-    width: 52rem;
+    width: 100%;
+    max-width: 52rem;
   }
 
   .skills-gallery {
@@ -178,7 +187,8 @@
 
   dotlottie-wc {
     height: 49rem;
-    width: 50rem;
+    width: 100%;
+    max-width: 50rem;
   }
 
   .skills-gallery {
@@ -350,7 +360,8 @@
 
   dotlottie-wc {
     height: 46rem;
-    width: 47rem;
+    width: 100%;
+    max-width: 47rem;
   }
 
   .counter {
@@ -405,7 +416,8 @@
 
   dotlottie-wc {
     height: 45rem;
-    width: 38.5rem;
+    width: 100%;
+    max-width: 38.5rem;
   }
 
   input[type="text"],
@@ -447,7 +459,8 @@
 
   dotlottie-wc {
     height: 42rem;
-    width: 51.5rem;
+    width: 100%;
+    max-width: 51.5rem;
   }
 
   .counter {
@@ -535,7 +548,8 @@
 
   dotlottie-wc {
     height: 39rem;
-    width: 42.5rem;
+    width: 100%;
+    max-width: 42.5rem;
   }
 
   .counter {

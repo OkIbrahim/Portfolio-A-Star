@@ -11,6 +11,14 @@
   --hover-text-2: rgba(0, 0, 0, 0.8);
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #section-hero {
   padding: 2rem 7rem;
   padding-bottom: 6rem;
@@ -284,7 +292,8 @@
 
 dotlottie-wc {
   height: 44rem;
-  width: 55rem;
+  width: 100%;
+  max-width: 55rem;
 }
 
 .stats {
