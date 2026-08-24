@@ -191,6 +191,16 @@
     max-width: 50rem;
   }
 
+  .btn__slide--left {
+    left: 3%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn__slide--right {
+    right: 3%;
+    transform: translate(50%, -50%);
+  }
+
   .skills-gallery {
     padding: 0 4.5rem;
     grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
@@ -237,6 +247,16 @@
   .hero-details h3 {
     font-size: 2.7rem;
     margin-bottom: 2.2rem;
+  }
+
+  .btn__slide--left {
+    left: 4%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn__slide--right {
+    right: 4%;
+    transform: translate(50%, -50%);
   }
 
   .slide-container {
@@ -376,6 +396,16 @@
     font-size: 1.5rem;
   }
 
+  .btn__slide--left {
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn__slide--right {
+    right: 5%;
+    transform: translate(50%, -50%);
+  }
+
   .skills-gallery > * > p {
     font-size: 2.2rem;
   }
@@ -418,6 +448,11 @@
     height: 45rem;
     width: 100%;
     max-width: 38.5rem;
+  }
+
+  .certificates {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 
   input[type="text"],
@@ -491,6 +526,17 @@
     to {
       transform: translateX(-190%);
     }
+  }
+
+  .certificates {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .skills-gallery {
+    padding: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
   }
 
   .contact-form h3 {
