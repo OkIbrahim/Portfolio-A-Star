@@ -24,6 +24,7 @@
 @media (max-width: 79em) {
   html {
     font-size: 56.25%;
+  max-width: 100vw;
   }
 
   .services-text h2 {
@@ -136,6 +137,7 @@
 @media (max-width: 65em) {
   html {
     font-size: 50%;
+  max-width: 100vw;
   }
 
   #section-hero {
