@@ -1,4 +1,4 @@
-"use script";
+"use strict";
 
 const counters = document.querySelectorAll(".counter");
 
@@ -290,7 +290,7 @@ const sectionHeroEl = document.querySelector("#section-hero");
 
 const obs = new IntersectionObserver(
   function (entries) {
-    // An array of entries containing information about the element being observed 
+    // An array of entries containing information about the element being observed
     const ent = entries[0];
 
     if (!ent.isIntersecting) {
