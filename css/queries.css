@@ -330,11 +330,6 @@
     overflow-x: hidden;
   }
 
-  body {
-    max-width: 51.5em;
-    overflow-x: hidden;
-  }
-
   #section-hero {
     padding: 2rem 3rem;
   }
@@ -416,11 +411,6 @@
     overflow-x: hidden;
   }
 
-  body {
-    max-width: 45.25em;
-    overflow-x: hidden;
-  }
-
   .hero-details h1 {
     font-size: 2.2rem;
     font-weight: 400;
@@ -468,11 +458,6 @@
 /* 600px / 16 = 37.5em */
 @media (max-width: 37.5em) {
   html {
-    max-width: 37.5em;
-    overflow-x: hidden;
-  }
-
-  body {
     max-width: 37.5em;
     overflow-x: hidden;
   }
@@ -587,11 +572,6 @@
 /* 440px / 16 = 27.5em */
 @media (max-width: 27.5em) {
   html {
-    max-width: 27.5em;
-    overflow-x: hidden;
-  }
-
-  body {
     max-width: 27.5em;
     overflow-x: hidden;
   }
