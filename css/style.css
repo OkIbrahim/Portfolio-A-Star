@@ -547,18 +547,18 @@ dotlottie-wc {
   cursor: pointer;
   height: 4.5rem;
   width: 4.5rem;
-  font-size: 3rem;
+  font-size: 4rem;
   border-radius: 50%;
   outline: none;
 }
 
 .btn__slide--left {
-  left: 3%;
+  left: 2%;
   transform: translate(-50% -50%);
 }
 
 .btn__slide--right {
-  right: 3%;
+  right: 2%;
   transform: translate(50% -50%);
 }
 
