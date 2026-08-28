@@ -554,12 +554,12 @@ dotlottie-wc {
 
 .btn__slide--left {
   left: 1%;
-  transform: translate(-50% -50%);
+  transform: translate(-50%, -50%);
 }
 
 .btn__slide--right {
   right: 1%;
-  transform: translate(50% -50%);
+  transform: translate(50%, -50%);
 }
 
 .dots {
