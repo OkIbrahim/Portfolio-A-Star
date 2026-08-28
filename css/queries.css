@@ -554,11 +554,11 @@
 /* 440px / 16 = 27.5em */
 @media (max-width: 27.5em) {
   .hero-details h1 {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
 
   .hero-details h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   dotlottie-wc {
