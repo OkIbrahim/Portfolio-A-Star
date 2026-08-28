@@ -539,7 +539,7 @@ dotlottie-wc {
 
 .btn__slide {
   position: absolute;
-  top: 40%;
+  top: 45%;
   z-index: 10;
   background: var(--hover-color);
   color: var(--hover-text);
@@ -553,13 +553,13 @@ dotlottie-wc {
 }
 
 .btn__slide--left {
-  left: 1%;
-  transform: translate(-50%, -50%);
+  left: 1.5%;
+  transform: translate(-50% -50%);
 }
 
 .btn__slide--right {
-  right: 1%;
-  transform: translate(50%, -50%);
+  right: 1.5%;
+  transform: translate(50% -50%);
 }
 
 .dots {
