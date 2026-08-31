@@ -305,6 +305,7 @@
 }
 
 dotlottie-wc {
+  display: block;
   height: 44rem;
   width: 100%;
   max-width: 55rem;
