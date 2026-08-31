@@ -53,9 +53,11 @@
 }
 
 /* Add a margin top to the hero section (which is exactly the height of the header). The sticky header shows up when there's 9rem left in the hero section */
+/*
 .sticky #section-hero {
   margin-top: 9rem;
 }
+*/
 
 .intro {
   display: flex;
