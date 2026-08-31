@@ -306,7 +306,7 @@ const obs = new IntersectionObserver(
   {
     root: null, // The browser's viewport
     threshold: 0, // when the hero section is totally out of the viewport
-    rootMargin: "-90px", // exact height of the header when it has the sticky class
+    rootMargin: "0px", // exact height of the header when it has the sticky class
   },
 );
 
