@@ -480,12 +480,12 @@
   }
 
   .projects-text h2 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 500;
   }
 
   .projects-text h4 {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
   }
 
   @keyframes scroll {
@@ -617,12 +617,12 @@
   }
 
   .projects-text h2 {
-    font-size: 3.3rem;
+    font-size: 4rem;
     font-weight: 500;
   }
 
   .projects-text h4 {
-    font-size: 1.35rem;
+    font-size: 1.85rem;
   }
 
   .slider-text h3 {
