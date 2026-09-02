@@ -497,7 +497,6 @@ dotlottie-wc {
   width: 100%;
   max-width: 100vw;
   height: 100%;
-  aspect-ratio: 16:9;
   /* object-fit: cover; */
 }
 
