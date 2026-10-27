@@ -424,6 +424,10 @@
     gap: 3rem;
   }
 
+  .git-cert {
+    grid-column: span 1;
+  }
+
   input[type="text"],
   input[type="email"],
   input[type="tel"] {
