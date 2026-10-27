@@ -53,9 +53,11 @@
 }
 
 /* Add a margin top to the hero section (which is exactly the height of the header). The sticky header shows up when there's 9rem left in the hero section */
+/*
 .sticky #section-hero {
   margin-top: 9rem;
 }
+*/
 
 .intro {
   display: flex;
@@ -303,6 +305,7 @@
 }
 
 dotlottie-wc {
+  display: block;
   height: 44rem;
   width: 100%;
   max-width: 55rem;
@@ -492,8 +495,9 @@ dotlottie-wc {
 
 .slide > img {
   width: 100%;
-  max-width: 100vw;
+  max-width: 120rem;
   height: 100%;
+  aspect-ratio: 16 / 9;
   /* object-fit: cover; */
 }
 
@@ -547,18 +551,18 @@ dotlottie-wc {
   cursor: pointer;
   height: 4.5rem;
   width: 4.5rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-radius: 50%;
   outline: none;
 }
 
 .btn__slide--left {
-  left: 1%;
+  left: 2%;
   transform: translate(-50% -50%);
 }
 
 .btn__slide--right {
-  right: 1%;
+  right: 2%;
   transform: translate(50% -50%);
 }
 
