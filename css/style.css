@@ -620,7 +620,8 @@ dotlottie-wc {
 .html-css-cert:hover,
 .advanced-css-sass-cert:hover,
 .javascript-cert:hover,
-.react-cert:hover {
+.react-cert:hover,
+.git-cert:hover {
   background-color: var(--hover-color-2);
   color: var(--bg-color-3);
 }
@@ -639,11 +640,20 @@ dotlottie-wc {
   transition: all 1s ease-in-out;
 }
 
+.git-cert {
+  grid-column: span 2;
+}
+
 .html-css-cert img,
 .advanced-css-sass-cert img,
 .javascript-cert img,
 .react-cert img {
   width: 40%;
+  border-radius: 1rem;
+}
+
+.git-cert img {
+  max-width: 100%;
   border-radius: 1rem;
 }
 
